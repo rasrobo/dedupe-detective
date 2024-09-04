@@ -1,5 +1,3 @@
-Here's the cleaned-up markdown version of the document:
-
 # DeDupe Detective: The File Doppelgänger Sleuth
 
 **Is your Downloads folder always full? Tired of manual cleanup? Meet DeDupe Detective, the ultimate solution for duplicate file detection!** This Python script helps you identify and manage duplicate files across your system, freeing up valuable storage space. It works seamlessly on macOS, Windows, Linux, and more, making it an essential tool for keeping your digital life organized.
