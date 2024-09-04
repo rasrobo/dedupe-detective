@@ -55,4 +55,3 @@ python dedupe_detective.py [folder_path] [-r]
    ```bash
    python dedupe_detective.py /path/to/directory -r
    ```
-```
