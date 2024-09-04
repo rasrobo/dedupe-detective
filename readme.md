@@ -24,3 +24,35 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/rasrobo/dedupe-detective.git
 cd dedupe-detective
+```
+
+# Usage
+
+Run the script from the command line:
+
+```bash
+python dedupe_detective.py [folder_path] [-r]
+```
+
+## Options
+
+- **`[folder_path]`**: Optional. The directory to scan. If not provided, the current directory will be scanned.
+- **`-r` or `--recursive`**: Optional. If included, the script will scan the specified directory and all its subdirectories.
+
+## Examples
+
+1. **Scan the current directory**:
+   ```bash
+   python dedupe_detective.py
+   ```
+
+2. **Scan a specific directory**:
+   ```bash
+   python dedupe_detective.py /path/to/directory
+   ```
+
+3. **Scan a directory recursively**:
+   ```bash
+   python dedupe_detective.py /path/to/directory -r
+   ```
+```
